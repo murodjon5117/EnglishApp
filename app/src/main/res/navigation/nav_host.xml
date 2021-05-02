@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/enterNumberFragment">
+
+    <fragment
+        android:id="@+id/enterNumberFragment"
+        android:name="com.project.englishapp.EnterNumberFragment"
+        android:label="fragment_enter_number"
+        tools:layout="@layout/fragment_enter_number" >
+        <action
+            android:id="@+id/action_enterNumberFragment_to_enterOTPFragment"
+            app:destination="@id/enterOTPFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/enterOTPFragment"
+        android:name="com.project.englishapp.EnterOTPFragment"
+        android:label="fragment_enter_o_t_p"
+        tools:layout="@layout/fragment_enter_o_t_p" />
+</navigation>
