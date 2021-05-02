@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".EnterOTPFragment">
+    tools:context=".SuccessFragment">
 
     <LinearLayout
         android:gravity="center_horizontal"
@@ -12,16 +12,16 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
         <ImageView
-            android:layout_marginTop="50dp"
-            android:layout_width="100dp"
-            android:layout_height="160dp"
-            android:src="@drawable/imageotp"/>
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="446dp"
+            android:src="@drawable/sucess"/>
         <TextView
             android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Enter Phone number"
+            android:text="Successfully"
             android:textColor="@color/black"
             android:textSize="22sp"
             android:textStyle="bold"/>
@@ -38,39 +38,10 @@
             android:textColor="@color/black"
             android:textStyle="normal" />
 
-        <androidx.cardview.widget.CardView
-            android:id="@+id/cardView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="30dp"
-            android:background="@color/white"
-            app:cardCornerRadius="8dp"
-            app:cardElevation="4dp"
-            app:layout_constraintTop_toBottomOf="@id/desc"
-            tools:layout_editor_absoluteX="30dp">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:gravity="center"
-                android:layout_height="60dp"
-               >
-                <com.mukesh.OtpView
-                    android:layout_width="wrap_content"
-                    android:layout_height="40dp"
-                    android:includeFontPadding="true"
-                    android:inputType="number"
-                    android:textSize="24sp"
-                    app:hideLineWhenFilled="false"
-                    app:itemCount="4"
-                    app:itemSpacing="10dp"
-                    app:itemWidth="15dp"
-                    app:lineColor="@color/grey"
-                    app:lineWidth="10dp"
-                    app:viewType="line" />
-            </LinearLayout>
-        </androidx.cardview.widget.CardView>
 
         <com.google.android.material.button.MaterialButton
+            android:layout_marginTop="30dp"
             android:id="@+id/btnOTPEnter"
             android:layout_width="160dp"
             android:layout_height="60dp"
