@@ -51,7 +51,7 @@ dependencies {
     //Contrycode
     implementation 'com.hbb20:ccp:2.5.1'
     //Enter OTP
-    implementation 'com.github.chaya222:AndroidOtpView:0.0.2'
+    implementation 'com.github.mukeshsolanki:android-otpview-pinview:2.1.0'
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
