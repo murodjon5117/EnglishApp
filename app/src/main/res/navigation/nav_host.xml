@@ -18,5 +18,17 @@
         android:id="@+id/enterOTPFragment"
         android:name="com.project.englishapp.EnterOTPFragment"
         android:label="fragment_enter_o_t_p"
-        tools:layout="@layout/fragment_enter_o_t_p" />
+        tools:layout="@layout/fragment_enter_o_t_p" >
+        <action
+            android:id="@+id/action_enterOTPFragment_to_navigation2"
+            app:destination="@id/navigation2" />
+    </fragment>
+    <navigation android:id="@+id/navigation2"
+        app:startDestination="@id/accountFragment">
+        <fragment
+            android:id="@+id/accountFragment"
+            android:name="com.project.englishapp.AccountFragment"
+            android:label="fragment_account"
+            tools:layout="@layout/fragment_account" />
+    </navigation>
 </navigation>

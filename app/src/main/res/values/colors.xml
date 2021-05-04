@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#6360FF</color>
+    <color name="colors_light_base_2">#F1F1FA</color>
+
+
+    <color name="color_inner_color">#26000000</color>
 
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
